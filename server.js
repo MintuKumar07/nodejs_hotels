@@ -15,7 +15,7 @@ const PORT=process.env.PORT || 3000;
 //file me kuchh bhi change karo to server ko re-run karo
 
 app.get('/', function (req, res) {
-  res.send('Hello Welcom to our Hotel!!')
+  res.send("Welcome to Our Restaurant! We're thrilled to have you dine with us. Our culinary team has prepared a delightful menu to tantalize your taste buds. Sit back, relax, and enjoy the flavors of our dishes crafted with care. Bon appétit!")
 });
 
 
