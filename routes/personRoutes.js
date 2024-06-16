@@ -1,10 +1,11 @@
 const express=require('express');
 const router=express.Router();
 const Person=require('./../models/person');
+//const {jwtAuthMiddleware,generatToken}=require('./../jwt');
 
 
 //post rout to add a person
-router.post('/',async (req, res)=>{
+router.post('/signup',async (req, res)=>{
     try{
         const data=req.body //Assuming the request body contains the person data
 

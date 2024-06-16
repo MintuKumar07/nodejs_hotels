@@ -6,11 +6,11 @@ require('dotenv').config();
 //Defining the url
 //for local computer
 //const mongoURL='mongodb://localhost:27017/hotels';
-//const mongoURL=process.env.MONGODB_URL_LOCAL;
+const mongoURL=process.env.MONGODB_URL_LOCAL;
 
 //for mongoDB Atlas
 //const mongoURL=''
-const mongoURL=process.env.MONGODB_URL;
+//const mongoURL=process.env.MONGODB_URL;
 
 //Setting up mongodb connection
 mongoose.connect(mongoURL,{
