@@ -37,7 +37,7 @@ app.get('/', function (req, res) {
 //Importing the Router File
 const personRoutes=require('./routes/personRoutes');
 //using the router
-app.use('/person',localAuthMiddleware, personRoutes);
+app.use('/person', personRoutes);
 //localAuthMiddleware
 
 const menuItemRoutes=require('./routes/menuItemRoutes');
